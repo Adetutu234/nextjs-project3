@@ -26,7 +26,7 @@ const page = () => {
           <p className='font-bold'>Message</p>
             <textarea
               placeholder="Enter your message"
-              rows= '8'
+              rows= {8}
               className="w-full p-4 border rounded-md resize-none bg-slate-700/10"/>
             <Button text={'submit'} className={'px-20 py-4 rounded-lg uppercase font-bold bg-purple-700 w-fit text-white '}/>
         </form>
