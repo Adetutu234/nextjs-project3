@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between rounded-2xl p-7 bg-white text-black font-bold '>
       <div>
-        <p className='uppercase'>next js project</p>
+        <p className='uppercase'>suliat apanisile</p>
       </div>
 
       <div>
