@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 import { List , XCircle } from '@phosphor-icons/react'
 
 const Navbar = () => {
-  const [openMenu,setOpenMenu]=useState("false")
+  const [openMenu,setOpenMenu]=useState(false)
   const handleOpen = () =>{
     setOpenMenu (!openMenu)}
   return (
