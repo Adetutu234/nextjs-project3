@@ -14,7 +14,7 @@ const page = () => {
           <p className='font-semibold text-4xl uppercase'>projects</p>
           <div className='bg-purple-700 h-1 mt-1 mx-auto rounded-2xl w-8'></div>
         </div>
-        <p className='text-lg'>Here you will find some of the personal and clients projects that I created with each project containing its own case study</p>
+        <p className='text-md'>Here you will find some of the personal and clients projects that I created with each project containing its own case study</p>
       </div>
     <div className='space-y-20'>
           <div>
@@ -25,8 +25,8 @@ const page = () => {
                     <div className=' bg-purple-700 w-35 h-1 mx-auto mt-1 rounded-2xl'></div>
                   </div>
                   <p className='font-bold text-xl'>Movie app</p>
-                  <p className='text-md w-250 mx-auto'>I built a dynamic, responsive web application using React that allows users to explore, search, and view details of movies. This project showcases my frontend development skills and demonstrates how I work with modern tools like React Router, Tailwind CSS, and Axios, while also integrating Cloudinary for media handling.</p>
-                  <div className='flex gap-5 justify-center pt-3'>
+                  <p className='text-md lg:w-250 mx-auto'>I built a dynamic, responsive web application using React that allows users to explore, search, and view details of movies. This project showcases my frontend development skills and demonstrates how I work with modern tools like React Router, Tailwind CSS, and Axios, while also integrating Cloudinary for media handling.</p>
+                  <div className='lg:flex gap-5 justify-center pt-3'>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>React-Router</button>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>TailwindCSS</button>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>Cloudinary</button>
@@ -45,8 +45,8 @@ const page = () => {
                     <div className=' bg-purple-700 w-35 h-1 mx-auto mt-1 rounded-2xl'></div>
                   </div>
                   <p className='font-bold text-xl'>Software Developer Portfolio Showcase</p>
-                  <p className='text-md w-250 mx-auto'>I built a responsive and visually engaging portfolio website using Next.js and TypeScript to showcase my skills, projects, and contact information. The site highlights my frontend capabilities, including page-based routing, component-driven architecture, and performance optimization. I deployed the project to Vercel for fast, global delivery.</p>
-                  <div className='flex gap-5 justify-center pt-3'>
+                  <p className='text-md lg:w-250 mx-auto'>I built a responsive and visually engaging portfolio website using Next.js and TypeScript to showcase my skills, projects, and contact information. The site highlights my frontend capabilities, including page-based routing, component-driven architecture, and performance optimization. I deployed the project to Vercel for fast, global delivery.</p>
+                  <div className='lg:flex gap-5  justify-center pt-3'>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>Nextjs</button>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>TailwindCSS</button>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>Cloudinary</button>
@@ -65,8 +65,8 @@ const page = () => {
                     <div className=' bg-purple-700 w-35 h-1 mx-auto mt-1 rounded-2xl'></div>
                   </div>
                   <p className='font-bold text-xl'>Todo app</p>
-                  <p className='text-md w-250 mx-auto'>I developed a dynamic ToDo App using React and Redux to manage user tasks efficiently. The goal of this app was to practice advanced state management, component structuring, and user interaction handling with real-time updates. The app provides functionality to add, update, delete, and filter tasks, offering a smooth user experience.</p>
-                  <div className='flex gap-5 justify-center pt-3'>
+                  <p className='text-md lg:w-250 mx-auto'>I developed a dynamic ToDo App using React and Redux to manage user tasks efficiently. The goal of this app was to practice advanced state management, component structuring, and user interaction handling with real-time updates. The app provides functionality to add, update, delete, and filter tasks, offering a smooth user experience.</p>
+                  <div className='lg:flex gap-5 justify-center pt-3'>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>React-Router</button>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>TailwindCSS</button>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>Redux-React</button>
@@ -85,8 +85,8 @@ const page = () => {
                     <div className=' bg-purple-700 w-35 h-1 mx-auto mt-1 rounded-2xl'></div>
                   </div>
                   <p className='font-bold text-xl'>Novel app</p>
-                  <p className='text-md w-250 mx-auto'>I created a Novel App using React and JavaScript, designed to help users explore and learn more about different novels. The app features clean navigation, attractive book visuals, and a responsive interface that enhances user experience. It combines image integration from Unsplash, media optimization via Cloudinary, and routing with React Router to deliver a seamless user journey.</p>
-                  <div className='flex gap-5 justify-center pt-3'>
+                  <p className='text-md lg:w-250 mx-auto'>I created a Novel App using React and JavaScript, designed to help users explore and learn more about different novels. The app features clean navigation, attractive book visuals, and a responsive interface that enhances user experience. It combines image integration from Unsplash, media optimization via Cloudinary, and routing with React Router to deliver a seamless user journey.</p>
+                  <div className='lg:flex gap-5 justify-center pt-3'>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>React-Router</button>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>TailwindCSS</button>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>Cloudinary</button>
@@ -105,8 +105,8 @@ const page = () => {
                     <div className=' bg-purple-700 w-35 h-1 mx-auto mt-1 rounded-2xl'></div>
                   </div>
                   <p className='font-bold text-xl'>Furniture app</p>
-                  <p className='text-md w-250 mx-auto'>I built a Furniture Showcase App using React and JavaScript, designed to highlight stylish, modern furniture products in an elegant and user-friendly layout. The app allows users to browse furniture collections, view details, and experience smooth navigation across pages. It also features responsive design and optimized images for faster loading and better performance across devices.</p>
-                  <div className='flex gap-5 justify-center pt-3'>
+                  <p className='text-md lg:w-250 mx-auto'>I built a Furniture Showcase App using React and JavaScript, designed to highlight stylish, modern furniture products in an elegant and user-friendly layout. The app allows users to browse furniture collections, view details, and experience smooth navigation across pages. It also features responsive design and optimized images for faster loading and better performance across devices.</p>
+                  <div className='lg:flex gap-5 justify-center pt-3'>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>React-Router</button>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>TailwindCSS</button>
                     <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>Cloudinary</button>
