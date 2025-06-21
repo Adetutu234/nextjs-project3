@@ -66,13 +66,13 @@ const page = () => {
                   </div>
                   <p className='font-bold text-xl'>Todo app</p>
                   <p className='text-md lg:w-250 mx-auto'>I developed a dynamic ToDo App using React and Redux to manage user tasks efficiently. The goal of this app was to practice advanced state management, component structuring, and user interaction handling with real-time updates. The app provides functionality to add, update, delete, and filter tasks, offering a smooth user experience.</p>
-                  <div className='lg:flex gap-5 justify-center pt-3'>
-                    <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>React-Router</button>
-                    <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>TailwindCSS</button>
-                    <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>Redux-React</button>
-                    <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>Javascript</button>
-                    <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>React</button>
-                    <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>API</button>
+                  <div className='lg:flex lg:gap-5 justify-center pt-3'>
+                    <button className='bg-slate-700/10 px-3 py-2 rounded-xl hover:bg-purple-300 hover:rounded-2xl w-fit'>React-Router</button>
+                    <button className='bg-slate-700/10 px-3 py-2 rounded-xl hover:bg-purple-300 hover:rounded-2xl w-fit'>TailwindCSS</button>
+                    <button className='bg-slate-700/10 px-3 py-2 rounded-xl hover:bg-purple-300 hover:rounded-2xl w-fit'>Redux-React</button>
+                    <button className='bg-slate-700/10 px-3 py-2 rounded-xl hover:bg-purple-300 hover:rounded-2xl w-fit'>Javascript</button>
+                    <button className='bg-slate-700/10 px-3 py-2 rounded-xl hover:bg-purple-300 hover:rounded-2xl w-fit'>React</button>
+                    <button className='bg-slate-700/10 px-3 py-2 rounded-xl hover:bg-purple-300 hover:rounded-2xl w-fit'>API</button>
                   </div>
                 </div>
           </div>

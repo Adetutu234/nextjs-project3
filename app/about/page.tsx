@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const page = () => {
   return (
-    <div className='lg:p-10 p-6 bg-[url("https://i0.wp.com/backgroundabstract.com/wp-content/uploads/edd/2022/02/vecteezy_abstract-geometric-background-illustration-in-flat-style_-e1656068792936.jpg?resize=600%2C450&ssl=1")] bg-no-repeat bg-cover min-h-screen text-black '>
+    <div className='lg:p-10 p-8 bg-[url("https://i0.wp.com/backgroundabstract.com/wp-content/uploads/edd/2022/02/vecteezy_abstract-geometric-background-illustration-in-flat-style_-e1656068792936.jpg?resize=600%2C450&ssl=1")] bg-no-repeat bg-cover min-h-screen text-black '>
         <div className='text-center space-y-5'>
           <div className='inline-block'>
             <p className='font-semibold text-4xl uppercase'>about me</p>
@@ -13,7 +13,7 @@ const page = () => {
           <p className='text-md'>Here you will find more information about me, what I do, and my current skills mostly in terms <br></br> of programming and technology</p>
         </div>
         
-        <div className='grid lg:grid-cols-2 grid-cols-1 lg:p-15 mt-7'>
+        <div className='grid lg:grid-cols-2 grid-cols-1 lg:p-15 mt-10'>
           <div className='lg:p-5 space-y-5 '>
             <h1 className='font-bold text-2xl lg:text-3xl'>Get to know me!</h1>
             <p className='text-md'>I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section. <br></br>
@@ -25,23 +25,22 @@ const page = () => {
             </Link>
           </div>
 
-          <div className='lg:p-5 space-y-5 mt-7'>
+          <div className='lg:p-5 space-y-5 mt-10'>
             <h1 className='font-bold text-3xl'>My Skills</h1>
             <div className=''>
               <ul className='grid lg:grid-cols-4 grid-cols-3 gap-4'>
-                <button className='bg-slate-700/10 px-2 py-1 rounded hover:bg-purple-300 hover:rounded w-fit'>TAILWIND</button>
-                <button className='bg-slate-700/10 px-2 py-1 rounded hover:bg-purple-300 hover:rounded w-fit'>MONGODB</button>
-                <button className='bg-slate-700/10 px-2 py-1 rounded hover:bg-purple-300 hover:rounded w-fit'>TYPESCRIPT</button>
-                <button className='bg-slate-700/10 px-2 py-1 rounded hover:bg-purple-300 hover:rounded w-fit'>POSTMAN</button>
-                <button className='bg-slate-700/10 px-2 py-1 rounded hover:bg-purple-300 hover:rounded w-fit'>EXPRESS</button>
-                <button className='bg-slate-700/10 px-2 py-1 rounded hover:bg-purple-300 hover:rounded w-fit'>GITHUB</button>
-                
-                <button className='bg-slate-700/10 px-2 py-1 rounded hover:bg-purple-300 hover:rounded w-fit'>REDUX</button>
-                <button className='bg-slate-700/10 px-2 py-1 rounded hover:bg-purple-300 hover:rounded w-fit'>REACT</button>
-                <button className='bg-slate-700/10 px-2 py-1 rounded hover:bg-purple-300 hover:rounded w-fit'>HTML</button>
-                <button className='bg-slate-700/10 px-2 py-1 rounded hover:bg-purple-300 hover:rounded w-fit'>NEXT</button>
-                <button className='bg-slate-700/10 px-2 py-1 rounded hover:bg-purple-300 hover:rounded w-fit'>NODE</button>
-                <button className='bg-slate-700/10 px-2 py-1 rounded hover:bg-purple-300 hover:rounded w-fit'>CSS</button>
+                <button className='bg-slate-700/10 lg:px-2 lg:py-1 px-4 py-2 rounded hover:bg-purple-300 hover:rounded w-fit'>TAILWIND</button>
+                <button className='bg-slate-700/10 lg:px-2 lg:py-1 px-4 py-2 rounded hover:bg-purple-300 hover:rounded w-fit'>MONGODB</button>
+                <button className='bg-slate-700/10 lg:px-2 lg:py-1 px-4 py-2 rounded hover:bg-purple-300 hover:rounded w-fit'>TYPESCRIPT</button>
+                <button className='bg-slate-700/10 lg:px-2 lg:py-1 px-4 py-2 rounded hover:bg-purple-300 hover:rounded w-fit'>POSTMAN</button>
+                <button className='bg-slate-700/10 lg:px-2 lg:py-1 px-4 py-2 rounded hover:bg-purple-300 hover:rounded w-fit'>EXPRESS</button>
+                <button className='bg-slate-700/10 lg:px-2 lg:py-1 px-4 py-2 rounded hover:bg-purple-300 hover:rounded w-fit'>GITHUB</button>
+                <button className='bg-slate-700/10 lg:px-2 lg:py-1 px-4 py-2 rounded hover:bg-purple-300 hover:rounded w-fit'>REDUX</button>
+                <button className='bg-slate-700/10 lg:px-2 lg:py-1 px-4 py-2 rounded hover:bg-purple-300 hover:rounded w-fit'>REACT</button>
+                <button className='bg-slate-700/10 lg:px-2 lg:py-1 px-4 py-2 rounded hover:bg-purple-300 hover:rounded w-fit'>HTML</button>
+                <button className='bg-slate-700/10 lg:px-2 lg:py-1 px-4 py-2 rounded hover:bg-purple-300 hover:rounded w-fit'>NEXT</button>
+                <button className='bg-slate-700/10 lg:px-2 lg:py-1 px-4 py-2 rounded hover:bg-purple-300 hover:rounded w-fit'>NODE</button>
+                <button className='bg-slate-700/10 lg:px-2 lg:py-1 px-4 py-2 rounded hover:bg-purple-300 hover:rounded w-fit'>CSS</button>
                 <button className='bg-slate-700/10 px-4 py-1 rounded hover:bg-purple-300 hover:rounded w-fit'>GIT</button>
               </ul>
             </div>

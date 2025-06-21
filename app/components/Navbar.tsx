@@ -6,10 +6,16 @@ import { List , XCircle } from '@phosphor-icons/react'
 
 const Navbar = () => {
   const [openMenu,setOpenMenu]=useState(false)
+
   const handleOpen = () =>{
     setOpenMenu (!openMenu)}
+
+  const handleClose = () =>{
+    setOpenMenu (false)
+  }
+
   return (
-    <div className='flex justify-between rounded-2xl lg:p-7 p-4 bg-white text-black font-bold '>
+    <div className='flex justify-between rounded-2xl lg:p-7 p-5 bg-white text-black font-bold '>
       <div>
         <p className='uppercase'>suliat apanisile</p>
       </div>
@@ -29,10 +35,10 @@ const Navbar = () => {
         <div className=''>
           {openMenu && (
             <ul className='absolute left-0 top-15 w-full flex flex-col items-end gap-4 p-5 z-5 bg-white md:hidden backdrop-blur-xs'>
-              <Link href='/' className='uppercase cursor-pointer hover:underline'>Homepage</Link>
-              <Link href='/about' className='uppercase cursor-pointer hover:underline'>about</Link>
-              <Link href='/projects' className='uppercase cursor-pointer hover:underline'>projects</Link>
-              <Link href='/contact' className='uppercase cursor-pointer hover:underline'>contact</Link>
+              <Link href='/' className='uppercase cursor-pointer hover:underline' onClick={handleClose}>Homepage</Link>
+              <Link href='/about' className='uppercase cursor-pointer hover:underline' onClick={handleClose}>about</Link>
+              <Link href='/projects' className='uppercase cursor-pointer hover:underline' onClick={handleClose}>projects</Link>
+              <Link href='/contact' className='uppercase cursor-pointer hover:underline' onClick={handleClose}>contact</Link>
             </ul>
           )}
         </div>

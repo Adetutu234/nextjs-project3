@@ -11,9 +11,9 @@ const Homepage = () => {
     setClick (!click)}
   return (
       <div className='relative '>
-          <div className='min-h-[calc(100vh-80px)] text-center p-28 lg:space-y-10 space-y-5 bg-[url("https://files.123freevectors.com/wp-content/original/121373-light-grey-abstract-texture-background-image.jpg")] bg-no-repeat bg-cover rounded-2xl '>
-            <p className='font-extrabold lg:text-5xl text-3xl text-black uppercase'>hey, I'm suliat apanisile</p>
-            <p className='lg:text-xl text-sm text-slate-700'>A Result-Oriented Web Developer building and managing Websites and Web <br></br> Applications that leads to the success of the overall product</p>
+          <div className='min-h-[calc(100vh-80px)] text-center lg:p-28 p-30 lg:space-y-10 space-y-5 bg-[url("https://files.123freevectors.com/wp-content/original/121373-light-grey-abstract-texture-background-image.jpg")] bg-no-repeat bg-cover rounded-2xl '>
+            <p className='font-extrabold text-5xl text-black uppercase'>hey, I'm suliat apanisile</p>
+            <p className='text-xl text-slate-700'>A Result-Oriented Web Developer building and managing Websites and Web <br></br> Applications that leads to the success of the overall product</p>
             <Link href={'/projects'}>
               <Button text={'projects'} className={'w-fit lg:px-20 px-6 py-4 bg-purple-700 mx-auto rounded-lg font-bold uppercase'} onClick={handleClick}/>
             </Link>

@@ -39,7 +39,7 @@ const page = () => {
               placeholder="Enter your message"
               rows= {8}
               className="w-full p-4 border rounded-md resize-none bg-slate-700/10"/>
-            <Button text={'submit'} className={'lg:px-20 px-6 py-4 rounded-lg uppercase font-bold bg-purple-700 text-center lg:w-fit text-white '} onClick={handleToggle}/>
+            <Button text={'submit'} className={'lg:px-20 px-6 py-4 cursor-pointer rounded-lg uppercase font-bold bg-purple-700 text-center lg:w-fit text-white '} onClick={handleToggle}/>
             {toggle && <Modal handleToggle={handleToggle}/>}
         </form>
       </div>
