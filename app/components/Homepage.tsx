@@ -17,8 +17,8 @@ const Homepage = () => {
             <Link href={'/projects'}>
               <Button text={'projects'} className={'w-fit lg:px-20 px-6 py-4 bg-purple-700 mx-auto rounded-lg font-bold uppercase'} onClick={handleClick}/>
             </Link>
-                        </div>
-            <div className='lg:absolute lg:hidden lg:top-40 lg:bg-white lg:p-2'>
+          </div>
+            <div className='lg:absolute lg:top-40 lg:bg-white lg:p-2'>
               <div className='lg:grid hidden lg:grid-rows-4 space-y-3 shadow-2xl drop-shadow-2xl cursor-pointer '>
                   <p><TwitterLogoIcon size={35} className='text-black hover:bg-purple-300 hover:rounded'/></p>
                   <p><LinkedinLogo size={35} className='text-black hover:bg-purple-300 hover:rounded'/></p>

@@ -34,7 +34,7 @@ const Navbar = () => {
             </button>
         <div className=''>
           {openMenu && (
-            <ul className='absolute left-0 top-15 w-full flex flex-col items-end gap-4 p-5 z-5 bg-white md:hidden backdrop-blur-xs'>
+            <ul className='absolute left-0 top-15 w-full flex flex-col items-end gap-4 p-5 z-5 bg-white md:hidden'>
               <Link href='/' className='uppercase cursor-pointer hover:underline' onClick={handleClose}>Homepage</Link>
               <Link href='/about' className='uppercase cursor-pointer hover:underline' onClick={handleClose}>about</Link>
               <Link href='/projects' className='uppercase cursor-pointer hover:underline' onClick={handleClose}>projects</Link>

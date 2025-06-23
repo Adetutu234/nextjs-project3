@@ -5,7 +5,7 @@ import { FacebookLogoIcon, LinkedinLogo, YoutubeLogo, TwitterLogoIcon, GithubLog
 
 const Footer = () => {
   return (
-    <div className='grid lg:grid-cols-3 p-10 pb-5 gap-10'>
+    <div className='grid lg:grid-cols-3 sm:grid-cols-1 p-10 pb-5 gap-10'>
       <div className='space-y-5 col-span-2'>
         <h1 className='font-bold text-xl uppercase'>Suliat Apanisile</h1>
         <p className='text-sm lg:w-150'>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
