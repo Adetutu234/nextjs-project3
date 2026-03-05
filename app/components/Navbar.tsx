@@ -2,7 +2,8 @@
 
 import Link from 'next/link'
 import React, { useState } from 'react'
-import { List , XCircle } from '@phosphor-icons/react'
+import { List , XCircle , BoxArrowDownIcon} from '@phosphor-icons/react'
+import Button from './Button'
 
 const Navbar = () => {
   const [openMenu,setOpenMenu]=useState(false)
@@ -15,17 +16,20 @@ const Navbar = () => {
   }
 
   return (
-    <div className='flex justify-between rounded-2xl lg:p-7 p-5 bg-white text-black font-bold '>
+    <div className='flex justify-between rounded-2xl lg:p-7 p-5 bg-black text-gray-300 font-bold items-center '>
       <div>
         <p className='uppercase'>suliat apanisile</p>
       </div>
 
       <div>
-        <ul className='md:flex gap-15 hidden '>
-            <Link href='/'>HOME</Link>
-            <Link href='/about'>ABOUT</Link>
-            <Link href='/projects'>PROJECTS</Link>
-            <Link href='/contact'>CONTACT</Link>
+        <ul className='md:flex gap-15 hidden capitalize items-center'>
+            <Link href='/'>home</Link>
+            <Link href='/about'>about</Link>
+            <Link href='/projects'>projects</Link>
+            <Link href='/contact'>contacts</Link>
+            <div>
+              <Button text={'view resume'} className={' capitalize bg-teal-500 text-black w-fit px-4 py-2 mx-auto rounded-lg font-bold flex gap-3'} icon={<BoxArrowDownIcon size={25} className={''}/>}/>
+            </div>
         </ul>
       </div>
         <div className='lg:hidden md:flex '>

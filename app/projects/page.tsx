@@ -5,6 +5,7 @@ import image4 from '../images/image4.png'
 import image5 from '../images/image5.png'
 import image6 from '../images/image6.png'
 import image7 from '../images/image7.png'
+import image8 from '../images/image8.png'
 
 const page = () => {
   return (
@@ -56,12 +57,34 @@ const page = () => {
                   </div>
                 </div>
           </div>
+
+          <div>
+            <Image src={image8} alt='image of a project ' className='h-80 w-150 mx-auto'/>
+                <div className='text-center space-y-3 p-7'>
+                  <div className='inline-block'>
+                    <p className='font-bold text-2xl'>Project 3 of 10</p>
+                    <div className=' bg-purple-700 w-35 h-1 mx-auto mt-1 rounded-2xl'></div>
+                  </div>
+                  <p className='font-bold text-xl'>E-commerce website</p>
+                  <p className='text-md lg:w-250 mx-auto'>I developed a fully functional e-commerce website using React to provide users with an engaging shopping experience. The goal of this project was to practice building scalable front-end applications, implementing routing, and managing global state for features like cart functionality. The platform allows users to browse products by category, view detailed product pages, add items to their cart, and see real-time cart updates with quantity tracking. This project highlights skills in component structuring, context/state management, responsive design with Tailwind CSS, and user interaction handling to create a smooth and intuitive online shopping experience.</p>
+                  <div className='lg:flex lg:gap-5 justify-center pt-3'>
+                    <button className='bg-slate-700/10 px-3 py-2 rounded-xl hover:bg-purple-300 hover:rounded-2xl w-fit'>React-Router</button>
+                    <button className='bg-slate-700/10 px-3 py-2 rounded-xl hover:bg-purple-300 hover:rounded-2xl w-fit'>TailwindCSS</button>
+                    <button className='bg-slate-700/10 px-3 py-2 rounded-xl hover:bg-purple-300 hover:rounded-2xl w-fit'>Redux-React</button>
+                    <button className='bg-slate-700/10 px-3 py-2 rounded-xl hover:bg-purple-300 hover:rounded-2xl w-fit'>Javascript</button>
+                    <button className='bg-slate-700/10 px-3 py-2 rounded-xl hover:bg-purple-300 hover:rounded-2xl w-fit'>React</button>
+                    <button className='bg-slate-700/10 px-3 py-2 rounded-xl hover:bg-purple-300 hover:rounded-2xl w-fit'>API</button>
+                    <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>Vercel</button>
+                    <button className='bg-slate-700/10 px-3 py-2 rounded-2xl hover:bg-purple-300 hover:rounded-2xl w-fit'>PhosphorIcons</button>
+                  </div>
+                </div>
+          </div>
   
           <div>
             <Image src={image5} alt='image of a project ' className='h-80 w-150 mx-auto'/>
                 <div className='text-center space-y-3 p-7'>
                   <div className='inline-block'>
-                    <p className='font-bold text-2xl'>Project 3 of 10</p>
+                    <p className='font-bold text-2xl'>Project 4 of 10</p>
                     <div className=' bg-purple-700 w-35 h-1 mx-auto mt-1 rounded-2xl'></div>
                   </div>
                   <p className='font-bold text-xl'>Todo app</p>
@@ -81,7 +104,7 @@ const page = () => {
             <Image src={image4} alt='image of a project ' className='h-80 w-150 mx-auto'/>
                 <div className='text-center space-y-3 p-7'>
                   <div className='inline-block'>
-                    <p className='font-bold text-2xl'>Project 4 of 10</p>
+                    <p className='font-bold text-2xl'>Project 5 of 10</p>
                     <div className=' bg-purple-700 w-35 h-1 mx-auto mt-1 rounded-2xl'></div>
                   </div>
                   <p className='font-bold text-xl'>Novel app</p>
@@ -101,7 +124,7 @@ const page = () => {
             <Image src={image7} alt='image of a project ' className='h-80 w-150 mx-auto'/>
                 <div className='text-center space-y-3 p-7'>
                   <div className='inline-block'>
-                    <p className='font-bold text-2xl'>Project 5 of 10</p>
+                    <p className='font-bold text-2xl'>Project 6 of 10</p>
                     <div className=' bg-purple-700 w-35 h-1 mx-auto mt-1 rounded-2xl'></div>
                   </div>
                   <p className='font-bold text-xl'>Furniture app</p>
