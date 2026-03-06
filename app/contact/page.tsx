@@ -25,16 +25,16 @@ const page = () => {
             {/* left */}
           <div>
             <p>Have an awesome project idea? <br/><span className='text-teal-300'> Let's collaborate and bring it to life! </span></p>
-            <ul>
-              <div classname='flex '>
+            <ul className='gap-5 pt-5'>
+              <div className='flex '>
                 <PhoneIcon size={25} />
                 <p>+2347025151571</p>
               </div>
-              <div classname='flex'>
+              <div className='flex'>
                 <EnvelopeOpenIcon size={25} />
                 <p>apanisilemorenikeji@gmail.com</p>
               </div>
-              <div classname='flex'>
+              <div className='flex'>
                 <MapPinLineIcon size={25} />
                 Lagos.Nigeria
               </div>
