@@ -3,6 +3,8 @@
 import React, { useState } from 'react'
 import Button from '../components/Button'
 import Modal from '../components/Modal'
+import { PhoneIcon, EnvelopeOpenIcon, MapPinLineIcon } from '@phosphor-icons/react'
+
 
 const page = () => {
   const [toggle, setToggle]=useState(false)
@@ -10,41 +12,69 @@ const page = () => {
     setToggle (!toggle)
   }
   return (
-    <div className='p-10 bg-[url("https://i0.wp.com/backgroundabstract.com/wp-content/uploads/edd/2022/02/vecteezy_abstract-geometric-background-illustration-in-flat-style_-e1656068792936.jpg?resize=600%2C450&ssl=1")] bg-no-repeat bg-cover min-h-screen text-black '>
-      <div className='text-center space-y-5 pb-7'>
-        <div className="inline-block">
-          <h1 className='font-semibold text-4xl'>Contact</h1>
-          <div className='w-8 h-1 bg-purple-700 mx-auto mt-1 rounded-2xl'></div>
-        </div>
+    <div className=''>
+          {/* top */}
+        <div>
+          <div className='space-y-1'>
+          <p className='text-gray-200 text-sm uppercase justify-self-center'>services</p>
+          <h1 className='text-3xl capitalize justify-self-center'>contact <span className='text-teal-300'>me</span></h1>
+          <p className='text-center'> i am currently open to full-time, contract or part-time opportunities in Front End Development </p>
+          </div>
+          {/* grid */}
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10 bg-white/10 p-10 m-40'>
+            {/* left */}
+          <div>
+            <p>Have an awesome project idea? <br/><span className='text-teal-300'> Let's collaborate and bring it to life! </span></p>
+            <ul>
+              <div classname='flex '>
+                <PhoneIcon size={25} />
+                <p>+2347025151571</p>
+              </div>
+              <div classname='flex'>
+                <EnvelopeOpenIcon size={25} />
+                <p>apanisilemorenikeji@gmail.com</p>
+              </div>
+              <div classname='flex'>
+                <MapPinLineIcon size={25} />
+                Lagos.Nigeria
+              </div>
+            </ul>
+          </div>
 
-        <p className='text-md'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
-      </div>
-
-      <div className='lg:ml-40 lg:mr-40 lg:p-10  bg-white gap-5 space-y-5 '>
-        <form action="" className='space-y-3 p-5 '>
-          <p className='font-bold'>Name</p>
+          {/* right */}
+      <div className=''>
+        <form action="" className='space-y-3 '>
+          <p className='font-bold'>Full Name</p>
           <input 
             type="text"
-            placeholder='Full Name'
+            placeholder='Enter Name'
             className='outline-1 text-sm lg:p-5 p-3 bg-slate-700/10 w-full rounded-lg' />
 
-          <p className='font-bold'>Email</p>
+          <p className='font-bold'>Email Address</p>
           <input 
             type="email"
-            placeholder='JaneDoe@gmail.com'
+            placeholder='Enter Email'
             className='outline-1 text-sm lg:p-5 p-3 bg-slate-700/10 w-full rounded-lg' />
 
           <p className='font-bold'>Message</p>
             <textarea
               placeholder="Enter your message"
-              rows= {8}
+              rows= {3}
               className="w-full p-4 border rounded-md resize-none bg-slate-700/10"/>
-            <Button text={'submit'} className={'lg:px-20 px-6 py-4 cursor-pointer rounded-lg uppercase font-bold bg-purple-700 text-center lg:w-fit text-white '} onClick={handleToggle}/>
-            {toggle && <Modal handleToggle={handleToggle}/>}
-        </form>
+            </form>
+        <div className='flex justify-center mt-5'>
+          <Button text={'submit'} className={'lg:px-20 px-6 py-2 cursor-pointer rounded-lg uppercase font-bold bg-teal-300 text-center lg:w-fit text-black '} onClick={handleToggle}/>
+        </div>
+        {toggle && <Modal handleToggle={handleToggle}/>}
       </div>
+
+          </div>
+
+        </div>
+        
     </div>
   )
+
 }
 
 export default page

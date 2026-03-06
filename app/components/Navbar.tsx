@@ -28,7 +28,9 @@ const Navbar = () => {
             <Link href='/projects'>projects</Link>
             <Link href='/contact'>contacts</Link>
             <div>
-              <Button text={'view resume'} className={' capitalize bg-teal-500 text-black w-fit px-4 py-2 mx-auto rounded-lg font-bold flex gap-3'} icon={<BoxArrowDownIcon size={25} className={''}/>}/>
+              <a href="/Suliat-Apanisile-Resume.pdf" target='_blank'>
+              <Button text={'view resume'} className={' capitalize bg-teal-500 text-black w-fit px-4 py-2 mx-auto rounded-lg cursor-pointer font-bold flex gap-3'} icon={<BoxArrowDownIcon size={25} className={''}/>}/>
+              </a>
             </div>
         </ul>
       </div>

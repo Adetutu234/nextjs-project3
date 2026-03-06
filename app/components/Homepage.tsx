@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import Button from './Button'
-import { FacebookLogoIcon, LinkedinLogo, YoutubeLogo, TwitterLogoIcon, GithubLogo } from '@phosphor-icons/react'
+import { FacebookLogoIcon, LinkedinLogo, YoutubeLogo, TwitterLogoIcon, GithubLogo ,CodeIcon, MagicWandIcon, WebhooksLogoIcon } from '@phosphor-icons/react'
 import Link from 'next/link'
 
 const Homepage = () => {
@@ -27,6 +27,30 @@ const Homepage = () => {
               </div>
             </div>
           </div>
+
+          <div className='bg-black/5'>
+            <p className='text-gray-200 text-sm uppercase justify-self-center'>services</p>
+            <h1 className='text-3xl capitalize justify-self-center'>what <span className='text-teal-300'>i do</span></h1>
+
+            <div className='grid grid-cols-3 gap-5 p-10'>
+              <div className='bg-white/10 shadow-2xl drop-shadow-2xl border-1 border-teal-300 p-5 hover:bg-teal-300 hover:text-black hover:shadow-2xl hover:drop-shadow-2xl rounded-xl '>
+                <CodeIcon size={32} className='border-2 rounded-full p-1'/>
+                <h1 className='font-bold text-xl border-b-1 border-b-teal-300 pt-3 capitalize'>web development</h1> 
+                <p className='py-3 font-medium text-sm'>I use my knowledge of various programming languages such as HTML5, CSS3, REACT, JAVASCRIPT, TYPESCRIPT, TAILWIND TO build digital solutions for users</p>
+              </div>
+              <div className='bg-white/10 shadow-2xl drop-shadow-2xl border-1 border-teal-300 p-5 hover:bg-teal-300 hover:text-black hover:shadow-2xl hover:drop-shadow-2xl rounded-xl '>
+                <WebhooksLogoIcon size={32} className='border-2 rounded-full p-1'/>
+                <h1 className='font-bold text-xl border-b-1 border-b-teal-300 pt-3 capitalize'>wordpress development</h1> 
+                <p className='py-3 font-medium text-sm'>Leveraging WordPress, I design and develop websites by customizing themes, building and configuring plugins, and using HTML, CSS, and JavaScript to create engaging digital experiences.</p>
+              </div>
+              <div className='bg-white/10 shadow-2xl drop-shadow-2xl border-1 border-teal-300 p-5 hover:bg-teal-300 hover:text-black hover:shadow-2xl hover:drop-shadow-2xl rounded-xl '>
+                <MagicWandIcon size={32} className='border-2 rounded-full p-1'/>
+                <h1 className='font-bold text-xl border-b-1 border-b-teal-300 pt-3 capitalize'>web development</h1> 
+                <p className='py-3 font-medium text-sm'>I use my knowledge of various programming languages such as HTML5, CSS3, REACT, JAVASCRIPT, TYPESCRIPT, TAILWIND TO build digital solutions for users</p>
+              </div>
+            </div>
+          </div>
+
       </div>
     
   )
