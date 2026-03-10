@@ -29,7 +29,7 @@ const Navbar = () => {
             <Link href='/contact'>contacts</Link>
             <div>
               <a href="/Suliat-Apanisile-Resume.pdf" target='_blank'>
-              <Button text={'view resume'} className={' capitalize bg-teal-500 text-black w-fit px-4 py-2 mx-auto rounded-lg cursor-pointer font-bold flex gap-3'} icon={<BoxArrowDownIcon size={25} className={''}/>}/>
+              <Button text={'view resume'} className={' capitalize bg-teal-300 hover:bg-teal-500 text-black w-fit px-4 py-2 mx-auto rounded-lg cursor-pointer font-bold flex gap-3'} icon={<BoxArrowDownIcon size={25} className={''}/>}/>
               </a>
             </div>
         </ul>

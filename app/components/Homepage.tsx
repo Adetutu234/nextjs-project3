@@ -11,6 +11,7 @@ const Homepage = () => {
     setClick (!click)}
   return (
       <div className='relative '>
+        {/* top */}
           <div className='min-h-[calc(100vh-80px)] lg:text-center lg:p-28 py-30 lg:space-y-10 space-y-5 bg-black rounded-2xl '>
             <p className='font-extrabold lg:text-5xl text-3xl text-center capitalize'>hey, I'm <span className='text-teal-300'>suliat apanisile</span></p>
             <p className='lg:text-xl text-md text-grey-300 lg:max-w-175 mx-auto'>A Result-Oriented Web Developer building and managing Websites and Web Applications that leads to the success of the overall product</p>
@@ -27,7 +28,8 @@ const Homepage = () => {
               </div>
             </div>
           </div>
-
+          
+          {/* services */}
           <div className='bg-black/5'>
             <p className='text-gray-200 text-sm uppercase justify-self-center'>services</p>
             <h1 className='text-3xl capitalize justify-self-center'>what <span className='text-teal-300'>i do</span></h1>
@@ -50,6 +52,28 @@ const Homepage = () => {
               </div>
             </div>
           </div>
+
+          {/* EXperience */}
+          {/* <div>
+            <p className='text-gray-200 text-sm uppercase justify-self-center'>services</p>
+            <h1 className='text-3xl capitalize justify-self-center'>experience <span className='text-teal-300'></span></h1> */}
+            {/* grid 2 */}
+            {/* <div> */}
+                {/* blue */}
+              {/* <div className='bg-blue-600'>
+                <image />
+              </div> */}
+                {/* yellow */}
+              {/* <div>
+              </div> */}
+                {/* pink */}
+              {/* <div>
+              </div> */}
+                {/* red */}
+              {/* <div>
+              </div>
+            </div>
+          </div> */}
 
       </div>
     
